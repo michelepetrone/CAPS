@@ -11,6 +11,9 @@ import powerclasses as pc
 CB42 = pc.CircuitBreaker(42,5,100,True)
 print (type(CB42))
 print (CB42.ID)
+bus = pc.Busbar(77)
+print(type(bus))
+print(bus.ID)
 
 
 

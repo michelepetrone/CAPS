@@ -46,3 +46,7 @@ class CircuitBreaker(Disconnector):
     def getInterruptedCurrent(self):
         return self.NoOfOps*self.NomCurr
     
+class Busbar:
+    
+    def __init__(self, ID):
+        self.ID = ID
